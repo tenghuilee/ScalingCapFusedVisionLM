@@ -1,6 +1,6 @@
 # ScalingCapFusedVisionLM
 
-Code comming soon.
+updating
 
 
 ## Requirements
