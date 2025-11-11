@@ -14,6 +14,7 @@ updating ...
 ## File Description
 
 
+- `demo.py`: A demo for the proposed model.
 - `experiment_inference.py`: A demo script for inference of models with various number of vision tokens.
 
 
