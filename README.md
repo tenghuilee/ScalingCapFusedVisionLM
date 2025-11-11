@@ -14,6 +14,9 @@ updating ...
 ## File Description
 
 
+- `experiment_inference.py`: A demo script for inference of models with various number of vision tokens.
+
+
 ## Cites
 
 ```
