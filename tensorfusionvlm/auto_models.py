@@ -1,32 +1,21 @@
 
-from typing import Tuple, Union
-import transformers.models.auto as auto_model
-from collections import OrderedDict
-import transformers
 import os
+from collections import OrderedDict
+from typing import Tuple, Union
 
-from .model.modeling_query_adapt_clip import (
-    ImageHDMultiQueryCLIPConfig,
-    ImageHDMultiQueryCLIPModel,
-    ImageMultiQueryCLIPConfig,
-    ImageMultiQueryConfig,
-    ImageMultiQueryCLIPModel,
-    AutoModelOnVLMForImageMultiQuery,
-)
+import transformers.models.auto as auto_model
+from transformers import (AutoTokenizer, CLIPImageProcessor,
+                          PreTrainedTokenizer, PreTrainedTokenizerFast)
 
 from .model.image_processing_phi3_v import Phi3VImageProcessor
-
-from .model.modeling_imghd_multi_que_llm import (
-    ImageMultiQueryCLIPLLMConfig,
-    ImageMultiQueryCLIPLLMModel,
-)
-
-from transformers import PreTrainedTokenizer, PreTrainedTokenizerFast, CLIPImageProcessor, AutoTokenizer
+from .model.modeling_imghd_multi_que_llm import (ImageMultiQueryCLIPLLMConfig,
+                                                 ImageMultiQueryCLIPLLMModel)
+from .model.modeling_query_adapt_clip import (ImageHDMultiQueryCLIPConfig,
+                                              ImageHDMultiQueryCLIPModel)
 
 
 class AutoModelForImageMultiQuery(auto_model.AutoModelForPreTraining):
     _model_mapping = OrderedDict({
-        ImageMultiQueryCLIPConfig: ImageMultiQueryCLIPModel,
         ImageMultiQueryCLIPLLMConfig: ImageMultiQueryCLIPLLMModel,
         ImageHDMultiQueryCLIPConfig: ImageHDMultiQueryCLIPModel,
     })
