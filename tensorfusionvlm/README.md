@@ -1,0 +1,62 @@
+
+## Copied Files
+
+- image_processing_phi3_v.py is copied from microsoft/Phi-3-vision-128k-instruct
+
+/home/thlee/Github/LLaVA/tensorfusionvlm
+- [ ] chat_template_extend.py
+- [ ] constants_test.py
+- [ ] chat_templates_jinja.py
+- [ ] utils.py
+- [ ] eval_models/
+  - [ ] instructblip.py
+  - [ ] imgque.py
+  - [ ] llavahf.py
+- [ ] train/
+  - [ ] train_modeling_imghd_multi_que_qed.py
+  - [ ] train_modeling_imghd_img_proj_llm.py
+  - [ ] train_modeling_img_multi_que_qed_llm.py
+  - [ ] train_modeling_img_multi_que_qed.py
+  - [ ] train_modeling_imghd_multi_que_qed_llm.py
+  - [ ] __init__.py
+- [ ] img_caption_web/
+  - [ ] main.py
+  - [ ] web/
+    - [ ] index.html
+- [ ] log_wrapper/
+  - [ ] web/
+    - [ ] index.html
+  - [ ] textvqa_web.py
+- [ ] auto_models.py
+- [ ] constants.py
+- [ ] data_utils_test.py
+- [ ] chat_parser_test.py
+- [ ] vlmeval_extend.py
+- [ ] vlmeval_extend_models.py
+- [ ] README.md
+- [ ] __init__.py
+- [ ] chat_parser.py
+- [ ] model/
+  - [deleted] modeling_align_vit.py
+  - [deleted] modeling_imghd_llm.py
+  - [ ] modeling_test.py
+  - [checked] fusions/
+    - [keep] fusion_base.py
+    - [keep] modeling_fusion_concat.py
+    - [delete] modeling_utils.py
+    - [keep] __init__.py
+  - [ ] clip_vision_factory.py
+  - [ ] modeling_query_adapt_clip.py
+  - [checked] image_embedding_phi3_v.py
+  - [checked] image_processing_phi3_v.py
+  - [checked] configuration_base.py
+  - [ ] clip_vision.py
+  - [ ] clip_vision_factory_test.py
+  - [ ] clip_vision_align.py
+  - [ ] modeling_imghd_multi_que_llm.py
+  - [deleted] clip_wrap.py
+  - [deleted] clip_wrap_test.py
+  - [ ] modeling_base.py
+  - [deleted] modeling_fusion_clip_text.py
+  - [ ] __init__.py
+- [ ] data_utils.py
