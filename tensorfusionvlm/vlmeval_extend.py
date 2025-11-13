@@ -1,4 +1,5 @@
 from vlmeval.config import supported_VLM
+from vlmeval import BaseModel # for client type checking
 from tensorfusionvlm.eval_models.imgque import ImageMultiQueryCLIPLLMModel
 from tensorfusionvlm.eval_models.llavahf import LLaVA_HF
 from tensorfusionvlm.eval_models.instructblip import InstructBlip_HF
