@@ -75,20 +75,32 @@ See individual demo files for specific usage instructions and parameters.
 
 ## File Descriptions
 
-- `demo.py`: A demo for the proposed model, demonstrating the core functionality
-- `experiment_inference.py`: A demo script for inference of models with various number of vision tokens
+### Main Scripts
+- `demo.py`: A demo for the proposed model, demonstrating the core functionality (moved to `demos/`)
+- `experiment_inference.py`: A demo script for inference of models with various number of vision tokens (moved to `demos/`)
 - `_update_ckpt.py`: Utility script for updating checkpoints
-- `demo_clip_text_fusion.py`: Example of CLIP-text fusion techniques
-- `demo_eval_vlmeval.py`: Evaluation script using VLMEvalKit
-- `demo_llava1.5-7B_hf_baseline.py`: Baseline implementation using LLaVA 1.5-7B HuggingFace model
-- `demo_modeling_img_multi_query.py`: Implementation of multi-query image modeling
-- `demo_modeling_query_adapt_clip*.py`: Various implementations for query adaptation with CLIP
-- `demo_phi3.py`: Example using Phi3 model integration
-- `demo_visionzip.py`: Implementation of vision compression techniques
-- `expectation_bound_visualize_main.py`: Visualization tools for expectation bounds
-- `fig_utils.py`: Utilities for figure generation and visualization
 - `inference_time_estimate.py`: Tools for estimating inference time
 - `init_imgque_with_new_backbone.py`: Initialization utilities for new backbone architectures
+
+### Demo Scripts
+All demo scripts have been moved to the `demos/` directory:
+- `demos/demo_clip_text_fusion.py`: Example of CLIP-text fusion techniques
+- `demos/demo_eval_vlmeval.py`: Evaluation script using VLMEvalKit
+- `demos/demo_llava1.5-7B_hf_baseline.py`: Baseline implementation using LLaVA 1.5-7B HuggingFace model
+- `demos/demo_modeling_img_multi_query.py`: Implementation of multi-query image modeling
+- `demos/demo_modeling_query_adapt_clip*.py`: Various implementations for query adaptation with CLIP
+- `demos/demo_phi3.py`: Example using Phi3 model integration
+- `demos/demo_visionzip.py`: Implementation of vision compression techniques
+
+### Figure Generation Utilities
+All figure generation utilities have been moved to the `figures/` directory:
+- `figures/fig_utils.py`: Utilities for figure generation and visualization
+- `figures/expectation_bound_visualize_main.py`: Visualization tools for expectation bounds
+
+### Other Components
+- `datasets_share/`: Shared dataset utilities
+- `scripts/`: Additional utility scripts
+- `tensorfusionvlm/`: Tensor fusion VLM implementation
 
 ## Results
 
