@@ -12,6 +12,10 @@ This repository contains the implementation and experiments for the paper "Scali
     - [Experiment with Different Vision Token Counts](#experiment-with-different-vision-token-counts)
   - [Requirements](#requirements)
   - [File Descriptions](#file-descriptions)
+    - [Main Scripts](#main-scripts)
+    - [Demo Scripts](#demo-scripts)
+    - [Figure Generation Utilities](#figure-generation-utilities)
+    - [Other Components](#other-components)
   - [Results](#results)
   - [Citation](#citation)
   - [License](#license)
@@ -47,6 +51,8 @@ Note: For VLMEvalKit, install from the specific commit:
 ```bash
 pip install git+https://github.com/open-compass/VLMEvalKit.git@0ff0c3e
 ```
+
+Checkpoints: [modelscope](https://modelscope.cn/models/LiTenghui/scalingcapabilitytokenspace)
 
 ## Usage
 
@@ -112,8 +118,6 @@ These findings provide insights into optimal vision token allocation for vision-
 
 ## Citation
 
-If you use this code in your research, please cite:
-
 ```
 @article{Li2025scalingcapabilitytokenspace,
   title = {Scaling Capability in Token Space: An Analysis of Large Vision Language Model},
@@ -127,6 +131,6 @@ If you use this code in your research, please cite:
 
 ## License
 
-This project is licensed under the terms of the license specified in the repository.
+MIT License.
 
 For any questions or issues, please open an issue in the GitHub repository.
