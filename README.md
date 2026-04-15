@@ -74,7 +74,7 @@ See individual demo files for specific usage instructions and parameters.
   journal = {Journal of Machine Learning Research},
   year = {2025},
   month = {10},
-  url = {http://jmlr.org/papers/v26/24-2443.html},
+  url = {https://www.jmlr.org/papers/v26/24-2243.html},
 }
 ```
 
