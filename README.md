@@ -70,13 +70,15 @@ See individual demo files for specific usage instructions and parameters.
 ## Citation
 
 ```
-@article{Li2025scalingcapabilitytokenspace,
-  title = {Scaling Capability in Token Space: An Analysis of Large Vision Language Model},
-  author = {Tenghui Li and Guoxu Zhou and Xuyang Zhao and Qibin Zhao},
+@article{JMLR:v26:24-2243,
+  author  = {Tenghui Li and Guoxu Zhou and Xuyang Zhao and Qibin Zhao},
+  title   = {Scaling Capability in Token Space: An Analysis of Large Vision Language Model},
   journal = {Journal of Machine Learning Research},
-  year = {2025},
-  month = {10},
-  url = {https://www.jmlr.org/papers/v26/24-2243.html},
+  year    = {2025},
+  volume  = {26},
+  number  = {253},
+  pages   = {1--61},
+  url     = {http://jmlr.org/papers/v26/24-2243.html}
 }
 ```
 
