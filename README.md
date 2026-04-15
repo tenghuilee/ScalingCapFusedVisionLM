@@ -1,5 +1,7 @@
 # Scaling Capability in Token Space: An Analysis of Large Vision Language Model
 
+[paper](https://www.jmlr.org/papers/v26/24-2243.html)
+
 This repository contains the implementation and experiments for the paper "Scaling Capability in Token Space: An Analysis of Large Vision Language Model", published in the Journal of Machine Learning Research. This research investigates the scaling relationship in vision-language models with respect to the number of vision tokens, revealing theoretical foundations for token-efficient model design.
 
 
